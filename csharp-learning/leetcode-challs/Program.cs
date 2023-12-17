@@ -17,7 +17,7 @@ namespace leetcode_challs
             {
                 string mergedword = "";
                 if (int i % 2 == 0 || word1.Length == 0 )
-                {
+            {
                 Console.WriteLine("Testing");
                 Console.WriteLine("Testing again");
             }
