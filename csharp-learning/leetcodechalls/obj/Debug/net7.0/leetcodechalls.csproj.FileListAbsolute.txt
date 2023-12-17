@@ -1,0 +1,15 @@
+/home/sultan/csharp-learning/leetcodechalls/bin/Debug/net7.0/leetcodechalls
+/home/sultan/csharp-learning/leetcodechalls/bin/Debug/net7.0/leetcodechalls.deps.json
+/home/sultan/csharp-learning/leetcodechalls/bin/Debug/net7.0/leetcodechalls.runtimeconfig.json
+/home/sultan/csharp-learning/leetcodechalls/bin/Debug/net7.0/leetcodechalls.dll
+/home/sultan/csharp-learning/leetcodechalls/bin/Debug/net7.0/leetcodechalls.pdb
+/home/sultan/csharp-learning/leetcodechalls/obj/Debug/net7.0/leetcodechalls.csproj.AssemblyReference.cache
+/home/sultan/csharp-learning/leetcodechalls/obj/Debug/net7.0/leetcodechalls.GeneratedMSBuildEditorConfig.editorconfig
+/home/sultan/csharp-learning/leetcodechalls/obj/Debug/net7.0/leetcodechalls.AssemblyInfoInputs.cache
+/home/sultan/csharp-learning/leetcodechalls/obj/Debug/net7.0/leetcodechalls.AssemblyInfo.cs
+/home/sultan/csharp-learning/leetcodechalls/obj/Debug/net7.0/leetcodechalls.csproj.CoreCompileInputs.cache
+/home/sultan/csharp-learning/leetcodechalls/obj/Debug/net7.0/leetcodechalls.dll
+/home/sultan/csharp-learning/leetcodechalls/obj/Debug/net7.0/refint/leetcodechalls.dll
+/home/sultan/csharp-learning/leetcodechalls/obj/Debug/net7.0/leetcodechalls.pdb
+/home/sultan/csharp-learning/leetcodechalls/obj/Debug/net7.0/leetcodechalls.genruntimeconfig.cache
+/home/sultan/csharp-learning/leetcodechalls/obj/Debug/net7.0/ref/leetcodechalls.dll

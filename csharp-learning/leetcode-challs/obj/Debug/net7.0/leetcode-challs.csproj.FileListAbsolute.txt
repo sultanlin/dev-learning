@@ -1,0 +1,5 @@
+/home/sultan/csharp-learning/leetcodechalls/obj/Debug/net7.0/leetcode-challs.csproj.AssemblyReference.cache
+/home/sultan/csharp-learning/leetcodechalls/obj/Debug/net7.0/leetcode-challs.GeneratedMSBuildEditorConfig.editorconfig
+/home/sultan/csharp-learning/leetcodechalls/obj/Debug/net7.0/leetcode-challs.AssemblyInfoInputs.cache
+/home/sultan/csharp-learning/leetcodechalls/obj/Debug/net7.0/leetcode-challs.AssemblyInfo.cs
+/home/sultan/csharp-learning/leetcodechalls/obj/Debug/net7.0/leetcode-challs.csproj.CoreCompileInputs.cache
