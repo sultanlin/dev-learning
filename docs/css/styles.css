@@ -8,3 +8,7 @@ body {
 img {
   border: 10px solid green;
 }
+
+h1 {
+  border: 5px dotted pink;
+}
