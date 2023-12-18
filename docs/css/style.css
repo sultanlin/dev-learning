@@ -19,3 +19,7 @@ blockquote {
   font-style: italic;
   text-align: center;
 }
+
+cite {
+  font-size: 1rem;
+}
