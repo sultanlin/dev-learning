@@ -5,9 +5,9 @@ body {
   background-color: #ffffcc;
 }
 
-/* img { */
-/*   border: 10px solid green; */
-/* } */
+img {
+  border: 10px solid green;
+}
 
 h1 {
   border: 5px dotted pink;
