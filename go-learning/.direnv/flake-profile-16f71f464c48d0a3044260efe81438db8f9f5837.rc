@@ -43,7 +43,7 @@ NIX_ENFORCE_NO_NATIVE='1'
 export NIX_ENFORCE_NO_NATIVE
 NIX_HARDENING_ENABLE='fortify stackprotector pic strictoverflow format relro bindnow'
 export NIX_HARDENING_ENABLE
-NIX_LDFLAGS='-rpath /home/sultan/go-learning/outputs/out/lib '
+NIX_LDFLAGS='-rpath /home/sultan/Documents/dev-learning/go-learning/outputs/out/lib '
 export NIX_LDFLAGS
 NIX_NO_SELF_RPATH='1'
 NIX_STORE='/nix/store'
@@ -134,7 +134,7 @@ name='nix-shell-env'
 export name
 nativeBuildInputs='/nix/store/i3ab37h47xmd0zh75708gj57hah7v7f4-go-1.20.5 /nix/store/ainh4qjrfqd7kymag4hwklvx98cx31vy-gotools-0.7.0 /nix/store/nwr1mzf8vkl7d428fpf1b4agqrh6h85f-golangci-lint-1.53.3'
 export nativeBuildInputs
-out='/home/sultan/go-learning/outputs/out'
+out='/home/sultan/Documents/dev-learning/go-learning/outputs/out'
 export out
 outputBin='out'
 outputDev='out'
@@ -165,7 +165,7 @@ preConfigurePhases=' updateAutotoolsGnuConfigScriptsPhase'
 declare -a preFixupHooks=('_moveToShare' '_multioutDocs' '_multioutDevs' )
 preferLocalBuild='1'
 export preferLocalBuild
-prefix='/home/sultan/go-learning/outputs/out'
+prefix='/home/sultan/Documents/dev-learning/go-learning/outputs/out'
 declare -a propagatedBuildDepFiles=('propagated-build-build-deps' 'propagated-native-build-inputs' 'propagated-build-target-deps' )
 propagatedBuildInputs=''
 export propagatedBuildInputs
