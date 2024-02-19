@@ -12,10 +12,10 @@ import (
 func main() {
 	server := http.NewServeMux()
 
-	// quizFS := http.FileServer(http.Dir("./firstsetup"))
-	doggoFS := http.FileServer(http.Dir("./doggoquiz"))
-	// server.Handle("/quiz", quizFS)
-	server.Handle("/", doggoFS)
+	quizFS := http.FileServer(http.Dir("./firstsetup"))
+	// doggoFS := http.FileServer(http.Dir("./doggoquiz"))
+	server.Handle("/", quizFS)
+	// server.Handle("/", doggoFS)
 	// server.HandleFunc("/", quiz)
 
 	err := http.ListenAndServe(":3333", server)
