@@ -3,12 +3,15 @@ use std::cmp::Ordering;
 use std::io;
 
 fn main() {
-    println!("Guess the correct number!");
+    println!("Guess the number!");
 
     let secret_number = rand::thread_rng().gen_range(1..=100);
 
+    let mut input_message = "Please input your guess";
+
     loop {
-        println!("Please input your guess");
+        // println!("Please input your guess.");
+        println!("{input_message}");
 
         let mut guess = String::new();
 
@@ -18,18 +21,25 @@ fn main() {
 
         let guess: u32 = match guess.trim().parse() {
             Ok(num) => num,
-            Err(_) => continue,
+            Err(_) => {
+                // println!("Invalid number. Try again.");
+                input_message = "Invalid number. Try again.";
+                continue;
+            }
         };
 
-        println!("You guessed {guess}");
+        input_message = "Please input your guess";
+
+        println!("You guessed: {guess}");
 
         match guess.cmp(&secret_number) {
-            Ordering::Less => println!("Too low"),
-            Ordering::Greater => println!("Too high"),
+            Ordering::Less => println!("Too small!"),
+            Ordering::Greater => println!("Too big!"),
             Ordering::Equal => {
-                println!("Correct, you win!");
+                println!("You win!");
                 break;
             }
         }
     }
+    // println!("You guessed: {}", 2 + 2);
 }

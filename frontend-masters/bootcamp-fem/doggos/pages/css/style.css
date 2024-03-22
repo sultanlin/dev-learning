@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: space-between;
+    align-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 2rem;
+    background-color: orangered;
+}
+
+select {
+    margin: auto 1rem;
+    padding: 0 0.5rem;
+}
+
+.doggos {
+    height: 90%;
+    width: 50%;
+    margin: auto;
+    align-content: center;
+    text-align: center;
+    border: 1px black solid;
+}
+
+.dog-img {
+    display: none;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotateZ(0deg);
+    }
+
+    90% {
+        transform: rotateZ(350deg);
+    }
+
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
+
+/* .loader { */
+/*     height: 50px; */
+/*     width: 50px; */
+/* } */
+
+.spinner {
+    font-size: 50px;
+    text-align: center;
+    animation: spin 2s linear infinite;
+    display: none;
+}
+
+.show {
+    display: block;
+}
